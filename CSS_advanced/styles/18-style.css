@@ -140,14 +140,17 @@ a:active {
 }
 
 .nav {
-    float: right;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-.nav-item {
+.navbar-menu {
+    float: right;
+}
+
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -156,7 +159,7 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
     padding: 0.5rem, 1rem;
     color: var(--nav-item-link-hover);
