@@ -199,7 +199,7 @@ ul.row {
     padding: 0.5rem;
 }
 
-.row {
+.row::after {
     content: none;
     display: table;
     float: none;
