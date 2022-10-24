@@ -82,16 +82,12 @@ a:active {
 }
 
 .section-body {
-    padding: var(--section-footer-padding);
+    padding: var(--section-body-padding);
 }
 
 .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
-}
-
-.footer {
-    padding: var(--footer-padding);
 }
 
 .section-tagline-transform {
@@ -135,4 +131,8 @@ a:active {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
