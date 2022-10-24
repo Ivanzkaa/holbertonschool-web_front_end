@@ -139,7 +139,7 @@ a:active {
     --nav-item-link-hover: color-primary;
 }
 
-.navbar-menu {
+.nav {
     float: right;
     margin: 0;
     padding: 0;
