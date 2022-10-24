@@ -202,7 +202,7 @@ ul.row {
 .row::after {
     content: "";
     display: table;
-    clear: none;
+    clear: both;
 }
 
 .footer-copyright {
