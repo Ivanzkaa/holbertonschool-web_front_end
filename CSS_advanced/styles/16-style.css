@@ -80,6 +80,8 @@ a:active {
 
 .section-title-margin {
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-title-color {
