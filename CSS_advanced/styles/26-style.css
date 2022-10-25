@@ -264,18 +264,20 @@ ul.row {
     text-decoration: none;
 }
 
-.card-testimonials {
+.card-testimonial {
     text-align: center;
 }
 
-.card-testimonials .card-avatar {
+.card-testimonial .card-avatar {
     border-radius: 50%;
-    width: 10x;
-    height: 10x;
+    width: 10rem;
+    height: 10rem;
 }
 
-.card-testimonials .card-quote <cite> {
+.card-testimonial .card-quote cite {
+    display: block;
     color: var(--color-primary);
+    padding-top: 1rem;
 }
 
 .button {
