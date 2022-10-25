@@ -188,7 +188,6 @@ a:active {
 }
 
 .header-logo a {
-    --header-logo: var(--header-logo-position);
     display: var(--header-logo-link-display);
     position: var(--header-logo-position);
     float: var(--header-logo-link-top);
