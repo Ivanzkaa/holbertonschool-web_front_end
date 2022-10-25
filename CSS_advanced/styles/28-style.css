@@ -183,7 +183,11 @@ a:active {
     --header-logo-link-left: 0;
 }
 
-.header-logo {
+.header {
+    padding: var(--header-padding);
+}
+
+.header-logo a {
     --header-logo: var(--header-logo-position);
     display: var(--header-logo-link-display);
     position: var(--header-logo-position);
