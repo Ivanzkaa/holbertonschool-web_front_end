@@ -228,7 +228,7 @@ a:active {
 .nav .nav-link::before {
     display: block;
     padding: 0.5rem 1rem;
-    content: empty;
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
