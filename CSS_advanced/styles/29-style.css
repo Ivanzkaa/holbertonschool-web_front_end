@@ -225,17 +225,24 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.nav .nav-link::before {
     display: block;
     padding: 0.5rem 1rem;
     content: empty;
     position: absolute;
-    background-color: var(--color-primary);
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-white);
     width: 0;
+    height: 0.2rem;
 }
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+.nav .nav-link:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 ul.row {
