@@ -225,7 +225,7 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.nav .nav-link::before {
     display: block;
     padding: 0.5rem 1rem;
     content: empty;
